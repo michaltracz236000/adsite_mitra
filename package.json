@@ -1,0 +1,11 @@
+{
+  "name": "adsite_mitra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
