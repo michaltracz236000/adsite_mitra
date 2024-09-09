@@ -6,12 +6,17 @@
     background-color: #f7f7f7;
 }
 .bg-settings{
-    background-size: 30%;
+    background-size: 40%;
     background-repeat: no-repeat;
-    background-position: 70% 0%;
+    background-position: 80% 0%;
 }
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+.bg-settings-cars{
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
+}
