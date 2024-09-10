@@ -5,6 +5,9 @@
 .bg-page{
     background-color: #f7f7f7;
 }
+.bg-button:hover{
+    background-color: #f7f7f7;
+}
 .bg-settings{
     background-size: 40%;
     background-repeat: no-repeat;
