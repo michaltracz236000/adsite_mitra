@@ -36,3 +36,6 @@
         background-image: url('../src/road.png');
     }
 }
+.test{
+    max-width: 100vh;
+}
