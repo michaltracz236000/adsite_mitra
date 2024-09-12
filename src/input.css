@@ -28,3 +28,11 @@
     font-weight: 600;
     font-style: normal;
   }
+.road-img{
+    background-image: none;
+}
+@media (min-width: 1024px) {
+    .road-img{
+        background-image: url('../src/road.png');
+    }
+}

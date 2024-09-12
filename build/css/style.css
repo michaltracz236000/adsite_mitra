@@ -571,24 +571,16 @@ video {
   margin-right: auto;
 }
 
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.mt-96 {
-  margin-top: 24rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-0\.5 {
   margin-top: 0.125rem;
 }
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .min-h-screen {
@@ -637,6 +629,10 @@ video {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-6 {
@@ -707,6 +703,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -717,14 +718,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.text-center {
+  text-align: center;
 }
 
 .font-sans {
@@ -833,6 +828,16 @@ video {
   font-style: normal;
 }
 
+.road-img{
+  background-image: none;
+}
+
+@media (min-width: 1024px) {
+  .road-img{
+    background-image: url('../src/road.png');
+  }
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -871,4 +876,32 @@ video {
 
 .hover\:underline-offset-8:hover {
   text-underline-offset: 8px;
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
+  .lg\:mt-96 {
+    margin-top: 24rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
 }
